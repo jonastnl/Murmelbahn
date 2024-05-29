@@ -6,7 +6,9 @@ select project
 
 ## Magnet
 Der Magnet ist eine Pipe und wurde mit dem Unity *ProBuilder*-Asset erstellt. 
+
 ![alt text](image-1.png)
+
 ProBuilder importieren: 
 1. Window
 2. Package Manager
@@ -19,14 +21,17 @@ ProBuilder verwenden
 3. ProBuilder Window
 
 Auf jede Pipe wurde das Skript *Magnets* gezogen. Darin wird die Tastenbelegung zum aktivieren/deaktivieren der Magnete festgelegt.
+
 ![alt text](image-2.png)
 
 ## Strecke
 Die Strecke wurde als FBX-Datei aus Blender in Unity importiert. (Drag'n'drop) Dann muss noch ein Mesh Collider hinzugefügt werden, um Kollision mit der Murmel zu ermöglichen. Murmel kann von der Strecke abkommen -> Idee: für mehr Sicherheit evtl. eine nicht sichtbare geschlossene Bahn und eine offene Bahn ohne Mesh Collider.
+
 ![alt text](image-3.png)
 
 # Code
 Bei Aktivierung des Magneten wird der Murmel *Force* in richtung Magnet zugeführt. Die Magneten arbeiten mit dem Tag "Marble". Der Tag muss der Murmel hinzugefügt werden. 
+
 ![alt text](image-4.png)
 
 # Blender
